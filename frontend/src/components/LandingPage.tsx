@@ -19,6 +19,13 @@ export const LandingPage = () => {
           setName(e.target.value);
         }}
       />
+      <button
+        onClick={() => {
+          setJoined(true);
+        }}
+      >
+        Join
+      </button>
     </div>
   );
 };
